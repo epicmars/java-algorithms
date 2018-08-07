@@ -1,0 +1,11 @@
+plugins {
+    id "java"
+}
+
+jar {
+    manifest {
+        from(file('src/main/resources/META-INF/MANIFEST.MF'))
+    }
+}
+
+sourceCompatibility = 1.8
